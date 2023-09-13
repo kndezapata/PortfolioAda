@@ -24,7 +24,7 @@ body {
 .portafolio__container {
   width: 80%;
   height: 100%;
-  background-color: rgb(156, 156, 214);
+  background-color: rgb(164, 164, 231);
   opacity: 0.8;
 }
 /* menu */
@@ -32,7 +32,11 @@ body {
 .navbar {
   width: 100%;
   background: rgb(2, 0, 36);
-  background: radial-gradient(circle,rgba(2, 0, 36, 1) 0%, rgba(211, 212, 223, 1) 52%,rgba(6, 17, 66, 1) 96%
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(211, 212, 223, 1) 52%,
+    rgba(6, 17, 66, 1) 96%
   );
   height: 48px;
   padding: 10px 12px;
