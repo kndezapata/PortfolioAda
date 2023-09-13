@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
     <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
     <title>Portafolio</title>
 </head>
 <body>
+    
   <nav class="navbar">
         <input class="checkboxnav" type="checkbox">
         <i class="icons fi fi-rr-menu-burger"></i>
@@ -21,6 +23,7 @@
             <li><a href="#">Contactame</a></li>
         </ul>
     </nav><!-- menu -->
+    <div class="portafolio__container">
     <section class="containertittle">
         <div class="tittle">
             <h1>Estudiante de Desarrollo Web Front end Developer</h1>
@@ -34,7 +37,7 @@
     </section>
     <!-- section herramientas -->
     <section class="containerherramientas">
-        <div class>
+        <div class="herramientasgrupo">
             <h2>Estas son mis herramientas:</h2>
             <figure class="figureherramientas">
                 <img src="figma.png" alt="Figma" class="herramientasimg">
@@ -45,11 +48,18 @@
         </div>
     </section> 
     <!-- proyectos -->
-    <p>Mis proyectos</p>
-    <div class="boxpadre">
-        <div class="box box1"></div>
-        <div class="box box2"></div>
-        <div class="box box3"></div>
-    </div>
+    
+    <section class="boxpadre">
+        <div class="boxpadre__container">
+            <h2>Mis proyectos:</h2>
+            <div class="box box1">
+                <img src="./programer.jpg" alt="" class="imgdev">
+            </div>
+            <div class="box box2"><img src="./woman.jpg" alt="" class="imgdev"></div>
+            <div class="box box3"><img src="./womanprogrammer.jpg" alt="" class="imgdev"></div>
+        </div>
+    </section> 
+ 
+</div>
 </body>
 </html>
