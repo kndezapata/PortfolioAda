@@ -11,7 +11,7 @@ body {
   height: 100%;
   font-family: Arial, Helvetica, sans-serif;
   color: antiquewhite;
-  background-image: url(planets_1.jpg);
+  background-image: url(nebulosa.gif);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -21,6 +21,11 @@ body {
   flex-direction: column;
   align-items: center;
 }
+
+h1{
+  font-family: 'Earth Orbiter 3D', sans-serif;
+  color:rgb(59, 29, 77);
+}
 .portafolio__container {
   width: 80%;
   height: 100%;
@@ -28,7 +33,16 @@ body {
   opacity: 0.8;
 }
 /* menu */
+.parrafo{
+  font-family: 'Earth Orbiter Academy Italic', sans-serif;
+  color: rgb(23, 8, 41);
+  
+}
 
+h2{
+  font-family: 'Earth Orbiter Academy Italic', sans-serif;
+  color: rgb(23, 8, 41);
+}
 .navbar {
   width: 100%;
   background: rgb(2, 0, 36);
@@ -41,6 +55,7 @@ body {
   height: 48px;
   padding: 10px 12px;
   position: relative;
+  font-family: 'Earth Orbiter Academy Italic', sans-serif;
 }
 
 .checkboxnav,
@@ -75,7 +90,7 @@ body {
 }
 
 .menunav {
-  background-color: rgb(97, 97, 133);
+  background-color: rgb(159, 159, 201);
   width: 200px;
   position: absolute;
   top: -154px;
@@ -95,14 +110,17 @@ body {
   padding: 10px 12px;
 }
 
-.menunav li a:hover {
+/* .menunav li a:hover{
   background-color: linear-gradient(
     90deg,
     rgba(2, 0, 36, 1) 0%,
     rgba(128, 72, 196, 1) 0%,
     rgba(56, 109, 120, 1) 100%
   );
-}
+} */
+.menunav li a:hover{
+      background: linear-gradient(90deg, rgba(113, 108, 207, 0.288) 0%, rgb(132, 132, 204) 35%, rgb(128, 65, 180) 100%);;
+  }  
 .checkboxnav:checked ~ .menunav {
   top: 48px;
 }
@@ -127,15 +145,15 @@ body {
   justify-content: center;
   align-items: center;
 }
-.tittle h1 {
+.tittle h1{
   font-size: 1.2rem;
   text-align: center;
 }
-.imgtittle {
+.imgtittle{
   height: 100px;
   width: 100px;
   border-radius: 350px;
-  font-size: 4rem;
+  font-size: 8rem ;
 }
 .containerparrafo p {
   font-size: 1rem;
@@ -207,7 +225,7 @@ body {
 
 @media (min-width: 560px){
   .menunav li a:hover{
-      background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(69,69,235,1) 35%, rgba(0,212,255,1) 100%);;
+      background: linear-gradient(90deg, rgba(113, 108, 207, 0.288) 0%, rgb(132, 132, 204) 35%, rgb(128, 65, 180) 100%);;
   }  
   .menunav{
     background-color: linear-gradient(
@@ -228,6 +246,7 @@ body {
    width: unset;
    display: flex;
    height: 48px;
+   background-color: rgba(159, 159, 201, 0.192);
   }
   .menunav li a{
    height: 48px;
@@ -256,8 +275,8 @@ body {
      font-size: 3rem;
   } 
   .containertittle{
-  width: 100%;
-  height: 400px;
+    width: 100%;
+    height: 400px;
   }
    .herramientasgrupo h2{ 
       /* margin-left: 300px; */
@@ -270,9 +289,10 @@ body {
       width: 100%;
       height: 400px;
   }
-  .figureherramientas .herramientasimg{
-    display: flex;
-    justify-content: space-between;
+  .figureherramientas{
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
   }
   .herramientasimg{
       width: 150px;
@@ -281,21 +301,87 @@ body {
       margin-top: 60px;
   }
 
-   .boxpadre, .boxpadre__container{
+   .boxpadre__container{
       display: flex;
-      flex-direction: row;
+      flex-flow: row nowrap;
       justify-content: space-between;
-  }
+    
+   }
   .imgdev{
       width: 300px;
       height: 300px;
   }
 }
+/* Form */
+.container_form{
+  display: flex;
+  flex-direction: column;
+  align-content: center ;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(luz.gif);
+  background-size: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
 
+.formulario{
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  border-radius: 7px;
+  width: 30%;
+  border-radius: 10%;
+  margin-top: 10%;
+}
 
+.formulario *{
+  padding: 0.5rem;
+  margin: 1rem auto;
+  display: block;
+  width: 100%;
+}
 
+@media (max-width: 720px){
+  .formulario{
+    width: 90%;
+   
+  }
+  .container_form{
+    width: 90%;
+  }
+  h3{
+    font-size: 2.5rem;
+    color: rgba(190, 185, 194, 0.849);
+    font-family: 'Earth Orbiter Academy Italic', sans-serif;
+  }
+}
+h3{
+  font-size: 2.5rem;
+  color: rgba(190, 177, 199, 0.849);
+  font-family: 'Earth Orbiter Academy Italic', sans-serif;
+}
+.formulario input[type="buttom"]{
+  width: 50%;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  border-radius: 7px;
+  transition: all 0.3s ease-out;
+}
 
+.formulario input[type="buttom"]:hover{
+  background-color: blueviolet;
+}
 
+.formulario input, .formulario textarea{
+  font-size: 0.9rem;
+  font-family: 'Earth Orbiter Academy Italic', sans-serif;
+}
 
-
-
+.formulario textarea{
+  resize: none;
+}
