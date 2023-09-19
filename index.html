@@ -18,10 +18,10 @@
         <i class="icons fi fi-rr-cross"></i>
         <!-- menu -->
         <ul class="menunav">
-            <li><a href="#containerparrafo">Sobre mi</a></li>
-            <li><a href="#">Mis proyectos</a></li>
-            <li><a href="#">Mis herramientas</a></li>
-            <li><a href="#">Contactame</a></li>
+            <li><a href="#parrafo">Sobre mi</a></li>
+            <li><a href="#boxpadre">Mis proyectos</a></li>
+            <li><a href="#containerherramientas">Mis herramientas</a></li>
+            <li><a href="#container_form">Contactame</a></li>
         </ul>
     </nav><!-- hero -->
     <div class="portafolio__container">
@@ -34,11 +34,11 @@
         </figure>
         <!-- parrafo -->
         <div class="containerparrafo">
-            <p class="parrafo">¡Hola terricolas! Soy Candela Zapata estudiante de Ada itw. Actualmente me dedico a trabajar en el sector de ventas, estudio desarrollo web Frontend y diseño UX/UI. Mi sueño es poder convertirme en una profesional que pueda romper con las expectativas y lograr cosas increibles</p>
+            <p class="parrafo" id="parrafo">¡Hola terricolas! Soy Candela Zapata estudiante de Ada itw. Actualmente me dedico a trabajar en el sector de ventas, estudio desarrollo web Frontend y diseño UX/UI. Mi sueño es poder convertirme en una profesional que pueda romper con las expectativas y lograr cosas increibles</p>
         </div>
     </section>
     <!-- section herramientas -->
-    <section class="containerherramientas">
+    <section class="containerherramientas" id="containerherramientas">
         <div class="herramientasgrupo">
             <h2>Estas son mis herramientas:</h2>
             <figure class="figureherramientas">
@@ -51,7 +51,7 @@
     </section> 
     <!-- proyectos -->
     
-    <section class="boxpadre">
+    <section class="boxpadre" id="boxpadre">
         <h2>Mis proyectos:</h2>
         <div class="boxpadre__container">
             <!--container1 -->
@@ -79,7 +79,7 @@
         </div>
     </section> 
 </div>
-<div class="container_form">
+<div class="container_form" id="container_form">
     <form action="" class="formulario">
         <h3>Contactame</h3>
         <input type="text" placeholder="Nombre">
@@ -89,9 +89,27 @@
         <input type="button" value="Enviar">
     </form>
 </div>
-<div class="container_footer">
-    <footer> &copy Desarrollado por Candela Zapata</footer>
-    <iframe src="linkedin.png" frameborder="0"></iframe>
-</div>
+<footer>
+    <div class="container_footer">
+        <h2 class="tittle_footer">Encontrame en: </h2>
+    </div>
+    <div class="redes_footer">
+        <a href="https://www.linkedin.com/in/candela-evangelina-zapata-079ba9241/" type="linkedin"
+        target="_blank">
+        <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/knd.eeeee/" type="instagram"
+        target="_blank">
+        <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://twitter.com/Kndeeee7" type="twitter" target="_blank">
+        <i class="fab fa-twitter"></i>
+        </a>
+    </div>
+    <div class="container_text_footer">
+        <p class="copy_footer">&copy 2023- Desarrollado por Candela zapata</p>
+    </div>
+</footer>
+<script src="https://kit.fontawesome.com/bdbed0aafa.js" crossorigin="anonymous"></script>
 </body>
 </html>
