@@ -15,7 +15,6 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  /* background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(147,147,223,1) 35%, rgba(0,212,255,1) 100%);; */
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -32,11 +31,9 @@ h1{
   background-color: rgb(164, 164, 231);
   opacity: 0.8;
 }
-/* menu */
+
 .parrafo{
-  /* font-family: 'Earth Orbiter Academy Italic', sans-serif; */
   color: rgb(23, 8, 41);
-  
 }
 
 h2{
@@ -44,6 +41,7 @@ h2{
   color: rgb(23, 8, 41);
   margin: 10px;
 }
+
 .navbar {
   width: 100%;
   background: rgb(2, 0, 36);
@@ -51,8 +49,7 @@ h2{
     circle,
     rgba(2, 0, 36, 1) 0%,
     rgba(211, 212, 223, 1) 52%,
-    rgba(6, 17, 66, 1) 96%
-  );
+    rgba(6, 17, 66, 1) 96%);
   height: 48px;
   padding: 10px 12px;
   position: relative;
@@ -98,7 +95,6 @@ h2{
   z-index: 1;
   right: 0px;
   transition: 250ms;
-
 }
 .menunav li {
   list-style-type: none;
@@ -110,17 +106,8 @@ h2{
   display: block;
   padding: 10px 12px;
 }
-
-/* .menunav li a:hover{
-  background-color: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(128, 72, 196, 1) 0%,
-    rgba(56, 109, 120, 1) 100%
-  );
-} */
 .menunav li a:hover{
-      background: linear-gradient(90deg, rgba(113, 108, 207, 0.288) 0%, rgb(132, 132, 204) 35%, rgb(128, 65, 180) 100%);;
+  background: linear-gradient(90deg, rgba(113, 108, 207, 0.288) 0%, rgb(132, 132, 204) 35%, rgb(128, 65, 180) 100%);;
   }  
 .checkboxnav:checked ~ .menunav {
   top: 48px;
@@ -195,7 +182,6 @@ h2{
 .herramientasimg{
     width: 35%;
     height: 35%;
- 
 }
 .boxpadre {
     height: 100%;
@@ -235,12 +221,8 @@ figcaption{
       background: linear-gradient(90deg, rgba(113, 108, 207, 0.288) 0%, rgb(132, 132, 204) 35%, rgb(128, 65, 180) 100%);;
   }  
   .menunav{
-    background-color: linear-gradient(
-      90deg,
-      rgba(2, 0, 36, 1) 0%,
-      rgba(128, 72, 196, 1) 0%,
-      rgba(56, 109, 120, 1) 100%
-    ); 
+    background-color: 
+      linear-gradient(90deg, rgba(2, 0, 36, 1) 0%,rgba(128, 72, 196, 1) 0%,rgba(56, 109, 120, 1) 100%); 
   }
 }
 @media (min-width: 560px){
@@ -273,7 +255,7 @@ figcaption{
       justify-content: center; 
       margin: -6px; 
   }
-  .containerparrafo .parrafo{
+   .containerparrafo .parrafo{
       font-size: 2rem;
   }
    .tittle h1{
@@ -282,12 +264,11 @@ figcaption{
      font-size: 3rem;
      margin: 10px;
   } 
-  .containertittle{
+   .containertittle{
     width: 100%;
     height: 400px;
   }
    .herramientasgrupo h2{ 
-      /* margin-left: 300px; */
       margin-top: 50px;
       padding: 20px;
       font-size: 2rem;
@@ -297,12 +278,12 @@ figcaption{
       width: 100%;
       height: 400px;
   }
-  .figureherramientas{
+   .figureherramientas{
       display: flex;
       flex-flow: row nowrap;
       justify-content: space-between;
   }
-  .herramientasimg{
+   .herramientasimg{
       width: 150px;
       height: 150px;
       padding: 10px;
@@ -338,7 +319,6 @@ figcaption{
   background-size: 100vh;
   background-repeat: no-repeat;
   background-position: center;
-  
 }
 
 .formulario{
@@ -468,7 +448,6 @@ h3{
     padding: 10px;
     margin-top: 60px;
 }
-
  .boxpadre__container{
     display: flex;
     flex-flow: row nowrap;
