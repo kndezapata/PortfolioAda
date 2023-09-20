@@ -423,7 +423,7 @@ h3{
 
 @media (min-width: 1024){
   .imgtittle{
-    height: 300px;
+    /* height: 300px; */
     width: 300px;
     border-radius: 350px;  
     z-index: 100px;
@@ -444,7 +444,7 @@ h3{
 } 
 .containertittle{
   width: 100%;
-  height: 400px;
+  /* height: 400px; */
 }
  .herramientasgrupo h2{ 
     /* margin-left: 300px; */
@@ -455,7 +455,7 @@ h3{
 }
  .containerherramientas{
     width: 100%;
-    height: 400px;
+   /*  height: 400px; */
 }
 .figureherramientas{
     display: flex;
@@ -463,8 +463,8 @@ h3{
     justify-content: space-between;
 }
 .herramientasimg{
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    /* height: 150px; */
     padding: 10px;
     margin-top: 60px;
 }
@@ -475,8 +475,5 @@ h3{
     justify-content: space-between;
   
  }
-.imgdev{
-    width: 300px;
-    height: 300px;
-}
+
 }
